@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    overflow: hidden;
+  }
+  .absolute-element {
+    position: absolute;
+    border: 6px solid white;
+  }
+  .happy-birth, .day {
+    position: absolute;
+    z-index: 9999;
+    font-size: calc(1.5vw + 1.5vh + 1.5vmin);
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: 800;
+    letter-spacing: calc(0.1vw + 0.1vh + 0.1vmin);
+    word-wrap: break-word;
+  }
+  .happy-birth {
+    left: 20.0%;
+    top: 4.39%;
+    z-index: 10000; /* Ensure it's above everything */
+  }
+  .day {
+    width: 21.74%;
+    left: 36.17%;
+    top: 16.5%;
+    z-index: 9999;
+  }
+  .image {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+  }
+  .cake {
+    z-index: 10000;
+  }
+
+  @media (max-width: 600px) {
+    .happy-birth, .day {
+      font-size: calc(2vw + 2vh + 2vmin);
+      letter-spacing: calc(0.0vw + 0.0vh + 0.0vmin);
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+ 
+  <div data-layer="HAPPY BIRTH" class="happy-birth">
+    <span style="color: #FBB8B8; font-size: 96px; font-family: Inknut Antiqua; font-weight: 800; letter-spacing: 9.60px; word-wrap: break-word">HAPP</span>
+    <span style="color: #DC5B62; font-size: 96px; font-family: Inknut Antiqua; font-weight: 800; letter-spacing: 9.60px; word-wrap: break-word">Y BIRTH</span>
+  </div>
+
+  <div data-layer="DAY!" class="day">
+    <span style="color: #FBB8B8; font-size: 96px; font-family: Inknut Antiqua; font-weight: 800; letter-spacing: 9.60px; word-wrap: break-word">D</span>
+    <span style="color: #DC5B62; font-size: 96px; font-family: Inknut Antiqua; font-weight: 800; letter-spacing: 9.60px; word-wrap: break-word">AY!</span>
+  </div>
+</div>
+
+<img src="pink circle.png" class="image" style="width: 66.46%; height: auto; left: 0; top: 0;" />
+
+<img src="red bottem.png" class="image" style="width: 43.33%; height: auto; left: 56.67%; top: 45.23%;" />
+
+<img src="coffe high low.png" class="image" style="width: 35.21%; height: auto; left: 0; top: 0;" />
+
+<img src="coffe high color.png" class="image" style="width: 44.03%; height: auto; left: 0; top: 0;" />
+
+<img src="right high corner.png" class="image" style="width: 31.74%; height: auto; left: 70.56%; top: -8.5%;" />
+<a>
+
+<a href="https://rorohbd.github.io/PAGE-2/roro2.html" target="_blank"><img src="PINK CAKEEEE.png" class="image cake" style="width: 35.56%; height: auto; left: 30.9%; top: 28.03%; z-index: 9999; position: absolute;" onmouseover="this.style.transform='scale(1.05)';" onmouseout="this.style.transform='scale(1)';"></a>
+</a>
+<img src="coffe high.png" class="image" style="width: 43.47%; height: auto; left: -3.47%; top: -0.09%; z-index: 10009" />
+
+<img src="coffeti.png" class="image" style="width: 45.42%; height: auto; left: 54.58%; top: 43.1%; z-index:99999" />
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
